@@ -1,6 +1,90 @@
 {
-  "users": [],
+  "users": [
+    {
+      "login": "test123",
+      "password": "123",
+      "id": 1
+    }
+  ],
   "validTokens": [],
   "posts": [],
-  "tickets": []
+  "tickets": [],
+  "dictionaries": {
+    "categoryOptions": [
+      {
+        "value": 1,
+        "label": "Экстренная"
+      },
+      {
+        "value": 2,
+        "label": "Высокая"
+      },
+      {
+        "value": 3,
+        "label": "Средняя"
+      },
+      {
+        "value": 4,
+        "label": "Низкая"
+      }
+    ],
+    "violationOptions": [
+      {
+        "value": 1,
+        "label": "Фальсификация документов"
+      },
+      {
+        "value": 2,
+        "label": "Конфликт интересов"
+      },
+      {
+        "value": 3,
+        "label": "Воровство"
+      },
+      {
+        "value": 4,
+        "label": "Работа без контракта"
+      },
+      {
+        "value": 5,
+        "label": "Неэтичное поведение"
+      }
+    ],
+    "linkOptions": [
+      {
+        "value": 1,
+        "label": "Телефон"
+      },
+      {
+        "value": 2,
+        "label": "Почта России"
+      },
+      {
+        "value": 3,
+        "label": "Электронная почта"
+      },
+      {
+        "value": 4,
+        "label": "СМС"
+      }
+    ],
+    "positionOptions": [
+      {
+        "value": 1,
+        "label": "Начальник"
+      },
+      {
+        "value": 2,
+        "label": "Помощник"
+      },
+      {
+        "value": 3,
+        "label": "Посетитель"
+      },
+      {
+        "value": 4,
+        "label": "Клиент"
+      }
+    ]
+  }
 }
